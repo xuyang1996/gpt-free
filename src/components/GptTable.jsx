@@ -43,10 +43,6 @@ export default function GptTable() {
       comment: "",
     },
     {
-      url: "https://chat.aidutu.cn/",
-      comment: "",
-    },
-    {
       url: "https://freegpt.one/",
       comment: "",
     },

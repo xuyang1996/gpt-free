@@ -19,9 +19,9 @@ export default function Home() {
         <Row>
           <Col span={6}></Col>
           <Col span={12}>
-            <div style={{ "margin-bottom": "10px", "margin-top": "10px" }}></div>
+            <div style={{ marginBottom: "10px", marginTop: "10px" }}></div>
             <SharingText />
-            <div style={{ "margin-bottom": "10px" }}></div>
+            <div style={{ marginBottom: "10px" }}></div>
             <GptTable />
             {/*<Test />*/}
           </Col>
