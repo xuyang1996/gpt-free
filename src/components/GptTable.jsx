@@ -27,6 +27,18 @@ export default function GptTable() {
       comment: "支持GPT4",
     },
     {
+      url: "https://chatmindai.ucaiji.com/",
+      comment: "支持GPT4",
+    },
+    {
+      url: "https://poe.com/",
+      comment: "支持GPT4",
+    },
+    {
+      url: "https://app.myshell.ai/",
+      comment: "支持语音聊天",
+    },
+    {
       url: "https://15331301428.ai001.live/",
       comment: "",
     },
