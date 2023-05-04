@@ -27,8 +27,8 @@ export default function GptTable() {
       comment: "支持GPT4",
     },
     {
-      url: "https://chatmindai.ucaiji.com/",
-      comment: "支持GPT4",
+      url: "https://chat-shared.zhile.io/shared.html",
+      comment: "多个gpt账号",
     },
     {
       url: "https://poe.com/",
