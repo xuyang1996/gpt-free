@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import { MerkleTree } from "merkletreejs";
 
 export default async function handler(req, res) {
-  const { wallet } = req.query;
+  const { wallet } = req.headers;
   if (wallet === undefined || wallet === "" || wallet === null) {
     res.status(400).json({ error: "please input wallet" });
     return;
