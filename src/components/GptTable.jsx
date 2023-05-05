@@ -1,4 +1,5 @@
 import { Table } from "antd";
+import { v4 as uuidv4 } from "uuid";
 
 const columns = [
   {
@@ -66,7 +67,13 @@ export default function GptTable() {
       url: "https://c.level06.com/",
       comment: "需要自己配置OPENAI_API_KEY",
     },
-  ];
+  ].map((item) => {
+    return {
+      url: item.url,
+      comment: item.comment,
+      key: uuidv4(),
+    };
+  });
 
   return <Table dataSource={dataSource} columns={columns} bordered tableLayout={"fixed"} />;
 }
