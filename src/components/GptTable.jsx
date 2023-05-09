@@ -29,7 +29,11 @@ export default function GptTable() {
     },
     {
       url: "https://chat-shared.zhile.io/shared.html",
-      comment: "多个gpt账号",
+      comment: "多个gpt网址分享",
+    },
+    {
+      url: "https://www.mydgpt.com/",
+      comment: "多个gpt网址分享",
     },
     {
       url: "https://poe.com/",
